@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\gitsamples\\UWPAdalTestApp\\MakeUWPGreatAgainTestApp.csproj": {}
+  },
+  "projects": {
+    "C:\\gitsamples\\UWPAdalTestApp\\MakeUWPGreatAgainTestApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\gitsamples\\UWPAdalTestApp\\MakeUWPGreatAgainTestApp.csproj",
+        "projectName": "MakeUWPGreatAgainTestApp",
+        "projectPath": "C:\\gitsamples\\UWPAdalTestApp\\MakeUWPGreatAgainTestApp.csproj",
+        "packagesPath": "C:\\Users\\jeferrie\\.nuget\\packages\\",
+        "outputPath": "C:\\gitsamples\\UWPAdalTestApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jeferrie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.15063"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\msalReleases": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/aad-clients-nightly/api/v2/": {}
+        },
+        "frameworks": {
+          "uap10.0.15063": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.15063": {
+          "dependencies": {
+            "Microsoft.IdentityModel.Clients.ActiveDirectory": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
